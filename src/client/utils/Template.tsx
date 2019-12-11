@@ -2,9 +2,9 @@ import * as React from 'react';
 
 const Template: React.FC<TemplateProps> = props => {
     return (
-        <div>
-            <h1>Template Page</h1>
-        </div>
+        <>
+            <h1 className="text-primary my-5 text-center">Template!</h1>
+        </>
     );
 };
 
